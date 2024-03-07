@@ -10,7 +10,7 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 
 public class Producer {
 	private static final String TOPIC_NAME = "test"; // Change to your Kafka topic name
-    private static final String FILE_PATH = "/home/tuan/Documents/test.log"; // Change to the path of your log file
+    private static final String FILE_PATH = "../kafkach/src/main/resources/test.log"; // Change to the path of your log file
 
     public static void main(String[] args) {
         Properties props = new Properties();
